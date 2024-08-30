@@ -1,4 +1,20 @@
 html {
   height: 100%;
   width: 100%;
+  scroll-behavior: smooth;
+}
+
+.cabecalho {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 12%;
+  width: 100%;
+  background-color: bhgfdfghjkj#fff700;
+  display: flex;
+}
+
+.logo img {
+  width: 20%;
+  padding-top: 0px;
 }
