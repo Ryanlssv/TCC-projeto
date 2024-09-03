@@ -27,9 +27,7 @@ html {
   left: 0px;
   height: 8%;
   width: 100%;
-  background-color: #ffffff;
-  /*OBS: REMOVER O BORDER APOS COLOCAÇÂO DO CARROSEL*/
-  border: 2px solid black;
+  background-color: #faf0f0;
   display: flex;
   z-index: 1000;
 }
