@@ -37,11 +37,19 @@ html {
 }
 
 #Modulos {
-  margin-left: 10%;
+  margin-left: 9%;
 }
 
 #Motores {
-  margin-left: 10%;
+  margin-left: 9%;
+}
+
+#Componentes {
+  margin-left: 8%;
+}
+
+#Kits {
+  margin-left: 17%;
 }
 
 .categorias-btn {
