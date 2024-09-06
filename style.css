@@ -47,23 +47,23 @@ html {
 }
 
 #Modulos {
-  margin-left: 7%;
+  margin-left: 6.5%;
 }
 
 #Motores {
-  margin-left: 7%;
+  margin-left: 6.5%;
 }
 
 #Componentes {
-  margin-left: 7%;
+  margin-left: 6.5%;
 }
 
 #Kits {
-  margin-left: 14%;
+  margin-left: 16%;
 }
 
 #prototipagem {
-  margin-left: 12%;
+  margin-left: 11.5%;
 }
 
 #impre-3D {
@@ -83,18 +83,35 @@ html {
 
 .btn-categoria {
   color: black;
-  font-size: 18px;
+  font-size: 15px;
   border: none;
   cursor: pointer;
+  font-family:"Heavitas" ;
+}
+
+.btn-categoria:hover {
+  color: #474646;
+  font-size: 17px;
+  transition: 0.5s;
+}
+
+.dropdown:hover {
+  font-size: 17px;
+  transition: 0.5s;
 }
 
 .btn-ofertas{
   color: black;
-  font-size: 18px;
+  font-size: 14px;
   border: none;
   cursor: pointer;
   border-bottom: 2px solid #f4d406;
+  font-family:"Heavitas" ;
+}
 
+.btn-ofertas:hover{
+  font-size: 15px;
+  transition: 0.5s;
 }
 
 .dropdown {
