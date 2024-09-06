@@ -21,6 +21,16 @@ html {
   top: 0px;
 }
 
+.barra{
+  position: relative;
+  width: 500px;
+  height: 30px;
+  top: -40%;
+  left: 200px;
+  background-color: rgba(243, 243, 243, 0.932);
+  border: none;
+}
+
 .categorias {
   position: fixed;
   top: 10.7%;
