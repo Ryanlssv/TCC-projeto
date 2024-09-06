@@ -33,7 +33,7 @@ html {
 
 .categorias {
   position: fixed;
-  top: 10.7%;
+  top: 10.9%;
   left: 0px;
   height: 5.5%;
   width: 100%;
@@ -43,7 +43,7 @@ html {
 }
 
 #Arduino {
-  margin-left: 20%;
+  margin-left: 12%;
 }
 
 #Modulos {
@@ -62,8 +62,16 @@ html {
   margin-left: 14%;
 }
 
+#prototipagem {
+  margin-left: 12%;
+}
+
 #impre-3D {
-  margin-left: 11%;
+  margin-left: 9%;
+}
+
+#ofertas {
+  margin-left: 9%;
 }
 
 .categorias-btn {
@@ -71,7 +79,6 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 5px;
 }
 
 .btn-categoria {
@@ -79,6 +86,15 @@ html {
   font-size: 18px;
   border: none;
   cursor: pointer;
+}
+
+.btn-ofertas{
+  color: black;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-bottom: 2px solid #f4d406;
+
 }
 
 .dropdown {
