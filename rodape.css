@@ -2,42 +2,35 @@
 .Rodape{
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 50%;
   top: 200%;
   left: 0px;
   background-color: #000000;
-  color: white;
+  color: white; 
+    display: flex;
 }
-
 .img-rede {
   position: absolute;
   width: 20%;
 }
-
-Rodape
-{
- width:100%;
-  min-height:250px;
-  background: #444;
-  display: flex;
-}
-
-Rodape.boxs
+footer
+footer .boxs
 {
 width:320px ;  
 min-height: 150px;
 padding: 20px;
+ display: flex;
 }
-Rodape.boxs :nth-child(4)
+footer .boxs :nth-child(4)
 {
 width: 400px;
 }
 .boxs h2
 {
-  color: #fff;
+  color: #ddd;
   margin-bottom: 20px;
 }
-.boxs ul li
+ .boxs ul li
 {
 margin:10px 0px;
   list-style: none;
@@ -49,11 +42,11 @@ margin:10px 0px;
   }
 .boxs ul li a:hover
 {
-  color: #fff;
+  color: #ddd;
 }
 .boxs p
 {
-color: #fff;
+color: #ddd;
 text-align: justify;  
   }
 
