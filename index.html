@@ -13,6 +13,7 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="carrosel.css">
   </head>
 
   <body>
@@ -135,6 +136,48 @@
         </div>
       </div>
     </div>
+
+<!-- AQUI FICARA O CARROSEL -->
+
+<div class="Carrosel" >
+  <div class="slideshow-container">
+
+    <!-- Alterar largura e inserir texto -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="./imagem/carrosel/slide1.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="./imagem/carrosel/slide2.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="./imagem/carrosel/slide3.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="./imagem/carrosel/slide4.png" style="width:100%">
+    </div>
+  
+  
+    <!-- botões de avançar e voltar (prev antes, next depois) -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- Os pontos que aparecem marcando a quantidade de fotos -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+</div>
   
     <!--rodape-->
     <footer class="Rodape">
@@ -177,6 +220,7 @@
       
   
     <script src=" script.js"></script>
+    <script src="carrosel.js"></script>
     <script
       src="https://kit.fontawesome.com/02669f3445.js"
       crossorigin="anonymous"
