@@ -43,7 +43,7 @@ html {
 }
 
 #Arduino {
-  margin-left: 12%;
+  margin-left: 16%;
 }
 
 #Modulos {
@@ -59,7 +59,7 @@ html {
 }
 
 #Kits {
-  margin-left: 16%;
+  margin-left: 9%;
 }
 
 #prototipagem {
@@ -91,12 +91,12 @@ html {
 
 .btn-categoria:hover {
   color: #474646;
-  font-size: 17px;
+  font-size: 15.5px;
   transition: 0.5s;
 }
 
 .dropdown:hover {
-  font-size: 17px;
+  font-size: 16.5px;
   transition: 0.5s;
 }
 
@@ -110,7 +110,7 @@ html {
 }
 
 .btn-ofertas:hover{
-  font-size: 15px;
+  font-size: 14.5px;
   transition: 0.5s;
 }
 
@@ -127,6 +127,7 @@ html {
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  font-family:"Roboto";
   z-index: 1;
 }
 

@@ -2,3 +2,8 @@
     font-family: "Heavitas";
     src: url("./font/Heavitas.ttf");
   }
+
+  @font-face {
+    font-family: "Roboto";
+    src: url("./font/Roboto-Medium.ttf");
+  }
