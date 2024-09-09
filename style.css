@@ -14,21 +14,51 @@ html {
   border-top: 4px solid #f4d406;
   border-bottom: 4px solid #f4d406;
   z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo {
-  width: 21%;
+  width: 25%;
   top: 0px;
 }
 
-.barra{
+.BarraDeBusca {
   position: relative;
+  background-color: white;
+  display: flex;
+  overflow: hidden;
   width: 500px;
-  height: 30px;
-  top: -40%;
-  left: 200px;
-  background-color: rgba(243, 243, 243, 0.932);
-  border: none;
+  height: 40px;
+  right: 35%;
+  align-items: center;
+  justify-content: center; 
+  border-radius: 1;
+}
+
+.BarraDeBusca .barra {
+  position: relative;
+  width: 310px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  outline: 0;
+  font-size: 2vh;
+
+}
+
+.BarraDeBusca .lupa{
+  position: relative;
+  min-width: 10% ;
+  left: 0%;
+}
+
+.BarraDeBusca .x{
+  position: relative;
+  min-width: 10% ;
+  left: 6%;
 }
 
 .categorias {
