@@ -35,6 +35,7 @@ html {
   align-items: center;
   justify-content: center; 
   border-radius: 1;
+  gap: 7%;
 }
 
 .BarraDeBusca .barra {
@@ -49,17 +50,13 @@ html {
 
 }
 
-.BarraDeBusca .lupa{
+.BarraDeBusca .lupa .x{
   position: relative;
   min-width: 10% ;
   left: 0%;
 }
 
-.BarraDeBusca .x{
-  position: relative;
-  min-width: 10% ;
-  left: 6%;
-}
+
 
 .categorias {
   position: fixed;
