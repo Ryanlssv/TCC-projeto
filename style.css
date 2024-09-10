@@ -41,7 +41,7 @@ html {
 }
 
 .input-wrapper {
-  padding: 15px 25px;
+  padding: 12px 25px;
   display: flex;
   gap: 10px;
   background-color: rgb(255, 255, 255);
@@ -51,10 +51,22 @@ html {
 
 .input-wrapper input{
   background-color: transparent;
-  width: 36vh;
+  width: 20vh;
   border: none;
   outline: none;
 }
+
+.input-wrapper:hover{
+
+  input{
+    width: 36vh; 
+    transition: 0.5s;
+   }
+   
+
+}
+
+
 
 .botoes-wrapper{
   display: flex;
@@ -62,9 +74,6 @@ html {
   width: 20%;
   height: 5vh;
 }
-
-
-
 
 .categorias {
   position: fixed;
