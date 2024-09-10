@@ -66,13 +66,49 @@ html {
 
 }
 
-
-
 .botoes-wrapper{
   display: flex;
   background-color: none;
   width: 20%;
   height: 5vh;
+  gap: 5%;
+}
+  .carrinho-wrapper {
+    display: flex;
+    background-color: #f4d406;
+    width: 7vh;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cart {
+    display: flex;
+    align-items: center;
+    color: #000000;
+    gap: 1vh;
+  }
+  
+  .login-wrapper{
+    display: flex;
+    background-color: #f4d406;
+    width: 15vh;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .login {
+    display: flex;
+    align-items: center;
+    color: #000000;
+    gap: 1vh;
+    a{ 
+    text-decoration: none;
+    color: #000000;
+  }  
 }
 
 .categorias {
