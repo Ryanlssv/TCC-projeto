@@ -15,46 +15,54 @@ html {
   border-bottom: 4px solid #f4d406;
   z-index: 1000;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+}
+
+.cabecalho a{
+  background-color: none;
+  display: flex;
+  width: 18%;
+  height: 75%;
 }
 
 .logo {
-  width: 25%;
-  top: 0px;
+  width: 100%;
 }
 
-.BarraDeBusca {
-  position: relative;
-  background-color: white;
+
+.container-wrapper {
+  background-color: none;
   display: flex;
-  overflow: hidden;
-  width: 500px;
-  height: 40px;
-  right: 35%;
+  width: 50%;
+  height: 7vh;
   align-items: center;
   justify-content: center; 
-  border-radius: 1;
-  gap: 7%;
 }
 
-.BarraDeBusca .barra {
-  position: relative;
-  width: 310px;
-  height: 40px;
-  align-items: center;
-  justify-content: center;
-  border: 0;
-  outline: 0;
-  font-size: 2vh;
-
+.input-wrapper {
+  padding: 15px 25px;
+  display: flex;
+  gap: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  cursor: pointer;
 }
 
-.BarraDeBusca .lupa .x{
-  position: relative;
-  min-width: 10% ;
-  left: 0%;
+.input-wrapper input{
+  background-color: transparent;
+  width: 36vh;
+  border: none;
+  outline: none;
 }
+
+.botoes-wrapper{
+  display: flex;
+  background-color: none;
+  width: 20%;
+  height: 5vh;
+}
+
 
 
 
