@@ -22,8 +22,8 @@ html {
 .cabecalho a{
   background-color: none;
   display: flex;
-  width: 18%;
-  height: 75%;
+  width: 20%;
+  height: 90%;
 }
 
 .logo {
@@ -32,10 +32,13 @@ html {
 
 
 .container-wrapper {
+  position: relative;
+  right: 8vh;
   background-color: none;
   display: flex;
   width: 50%;
   height: 7vh;
+  
   align-items: center;
   justify-content: center; 
 }
