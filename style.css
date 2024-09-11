@@ -38,7 +38,6 @@ html {
   display: flex;
   width: 50%;
   height: 7vh;
-  
   align-items: center;
   justify-content: center; 
 }
@@ -69,50 +68,85 @@ html {
 
 }
 
+
+
 .botoes-wrapper{
   position: relative;
-  background-color: #f4d406;
-  display: flex;
   background-color: none;
-  width: 20vh;
-  height: 5vh;
+  display: flex;
+  width: 40vh;
+  height: 8vh;
   right: 10vh;
   border-radius: 5px;
+  background-color: blue;
+  gap: 2vh;
 }
   .carrinho-wrapper {
     display: flex;
-    width: 7vh;
+    width: 15vh;
+    font-size: 120%;
+    height: 8vh;
+    font-family:Cambria, Cochin, 'Georgia', Times, Times New Roman, serif;
     border-radius: 5px;
     cursor: pointer;
+    background-color: none;
     align-items: center;
     justify-content: center;
+    gap: 2vh;
+    color: #ffffff;
   }
   
   .cart {
+    font-size: 3vh;
     display: flex;
     align-items: center;
-    color: #000000;
-    gap: 1vh;
+    color: #f4d406;
   }
   
   .login-wrapper{
     display: flex;
-    width: 15vh;
+    width: 30vh;
+    height: 8vh;
+    font-size: 120%;
+    font-family:Cambria, Cochin, 'Georgia', Times, Times New Roman, serif;
     border-radius: 5px;
     cursor: pointer;
     align-items: center;
-    justify-content: center;
-  }
+    justify-content:;
+    flex-direction: row;
+    color: #ffffff;
+    background-color: blueviolet;
 
-  .login {
+  }
+  .texto-container{
+    background-color: rgb(79, 79, 209); 
+    position: relative;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    color: #000000;
-    gap: 1vh;
-    a{ 
-    text-decoration: none;
-    color: #000000;
-  }  
+    width: 90%;
+    height: 100%;
+    font-size: 50%;
+
+    .link{
+      position: relative;
+      font-family: 'Heavitas';
+      background-color: #f4d406;
+      width: 100%;
+      align-items: center;
+      height: 20%;
+      display: flex;
+      flex-direction: row;
+      gap: 5%;
+      font-size: 100%;
+    }
+    
+  }
+  .IconUser {
+    font-size: 3vh;
+    display: contents;
+    align-items: center;
+    color: #f4d406;
 }
 
 .categorias {
