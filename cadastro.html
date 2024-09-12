@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="./rodape.css">
+  <link rel="shortcut icon" href="./src/logo-e-favicon/favicon.ico" type="image/x-icon" />
+  <style>
+    .cabecalho {
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      height: 10%;
+      width: 100%;
+      background-color: #000000;
+      border-top: 4px solid #f4d406;
+      border-bottom: 4px solid #f4d406;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .cabecalho a {
+      background-color: none;
+      display: flex;
+      width: 20%;
+      height: 90%;
+    }
+
+    h1 {
+
+      font-size: 30px;
+      color: #FFDE59;
+      text-align: center;
+
+
+
+    }
+
+    form {
+      border: 2px solid black;
+      padding: 20px;
+      max-width: 400px;
+      margin: 0 auto;
+      top: 30%;
+
+
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+      font-size: 10px;
+    }
+
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding-top: 2%;
+      margin-top: 5px;
+      font-size: 12px;
+      border-radius: 5px;
+      border: 2% solid black;
+      background-color: white;
+      margin-right: 50%;
+    }
+
+    input[value="Confirmar"] {
+      background-color: black;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 18px;
+      border-radius: 5px;
+
+    }
+
+    label[for="email"],
+    label[for="senha"] {
+      font-size: 16px;
+    }
+
+    input[value="Não tenho login"] {
+      background-color: black;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 18px;
+      border-radius: 5px;
+    }
+
+    a {
+      background-color: black;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 18px;
+      border-radius: 5px;
+    }
+
+    #cadastro {
+      position: relative;
+      text-align: right;
+      bottom: 44px;
+    }
+
+    form {
+      background-color: lightgray;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <body>
+    <div style="padding-top: 15%;">
+      <form action="entrada.html" method="get">
+        <img src="./logo.png" width="100%">
+        <div id="menu">
+          <h1>Cadastre-se agora!</h1>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="usuario@gmail.com" required>
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha" name="senha" minlength="5" required>
+          <label for="senha"> Confirmar Senha:</label>
+          <input type="password" id="senha" name="senha" required>
+          <br><br>
+          <div>
+            <input type="submit" value="Confirmar">
+          </div>
+        </div>
+      </form>
+    </div>
+    </div>
+    <footer class="Rodape">
+      <!--1-->
+      <div class="boxs-logo">
+
+        <img src="./src/logo-e-favicon/logo.png" width="25%" style="margin-left: 5%; padding-top: 2%; " alt="">
+
+      </div>
+      <!--2-->
+      <div class="boxs2">
+        <h3>SOBRE NÓS</h3>
+        <p>
+          No armazém da Eletrônica, oferecemos uma ampla gama de componentes eletrônicos de alta qualidade, atendendo
+          deste hobbylistas até profissionais,
+          garantindo a melhor experiência de compra.
+        </p>
+      </div>
+      <!--3-->
+      <div class="boxs3">
+        <h3>CONTATO</h3>
+        <ul>
+          <li><a href="#"></a></li>
+          <p>
+            <i class="fa-solid fa-envelope"></i>
+            <li><a href="#">armazemdaeletronica@gmail.com </a></li>
+          </p>
+          <p>
+            <i class="fa-solid fa-square-phone"></i>
+            <li><a href="#"></a></li> Telefone: (11)95980-4209
+          </p>
+        </ul>
+      </div>
+      <!--4-->
+      <div class="boxs4">
+        <h2> rede sociais</h2>
+        <p>
+          <i class="fa-brands fa-instagram"></i> @armazemdaeletronica
+        </p>
+        <p>
+          <i class="fa-brands fa-facebook"></i> @armazemdaeletronica
+        </p>
+        <p>
+          <i class="fa-brands fa-whatsapp"></i> (11)94086-4488
+        </p>
+        <p>
+          <i class="fa-brands fa-bluesky"></i> @armazemdaeletronica
+        </p>
+      </div>
+    </footer>
+    <header class="cabecalho">
+      <a href="index.html"><img class="logo" src="/src/logo-e-favicon/logo.png" alt="Logo" /></a>
+
+      <div class="container-wrapper">
+
+        <div class="input-wrapper">
+
+          <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+
+          <input class="barra" placeholder="Buscar "="text" id="User" name="Name">
+
+        </div>
+
+      </div>
+
+      </div>
+      <div class="botoes-wrapper">
+        <div class="carrinho-wrapper">
+          <div class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </div>
+        <div class="login-wrapper">
+          <div class="login">
+            <i class="fa-regular fa-user"></i>
+            <a href="./pagina de login/Login.html">Login</a>
+          </div>
+        </div>
+      </div>
+
+
+    </header>
+    <!---Botoe
+</body>
+</html>
