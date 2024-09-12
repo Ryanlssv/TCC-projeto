@@ -112,7 +112,7 @@ html {
     border-radius: 5px;
     cursor: pointer;
     align-items: center;
-    justify-content:center;
+    justify-content: center ;
     flex-direction: row;
     color: #ffffff;
     background-color: blueviolet;
@@ -240,7 +240,8 @@ html {
 }
 
 .dropdown-content {
-  display: flex;
+  display: none;
+  font-size: 13.5px;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
