@@ -3,11 +3,12 @@
 .Rodape{
   position: absolute;
   width: 100%;
-  height: 50%;
+  height: 40%;
   top: 200%;
   left: 0px;
   background-color: #000000;
   color: white; 
+
 }
 .img-rede {
   position: absolute;
@@ -22,6 +23,7 @@ min-height: 150px;
 padding: 20px;
  display: inline-block;
  font-family: "Heavitas";
+ font-size: 16px;
 
 }
 
@@ -39,8 +41,24 @@ padding: 20px;
   min-height: 150px;
   padding: 20px;
   margin-left: 5%;
+  font-size: 15px;
+   display: inline-block;
+   font-family: "Heavitas"; 
+
+}
+.boxs5{
+  position: absolute;
+  width:320px ;  
+  min-height: 150px;
+  padding: 20px;
+  margin-left: 5%;
+  font-size: 15px;
    display: inline-block;
    font-family: "Heavitas";
+top: 20%;
+
+
+
 }
 
 p{
