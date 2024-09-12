@@ -15,7 +15,9 @@
   width: 20%;
 }
 
-
+.mov-rodape{
+  padding-left: 2%;
+}
 
 .boxs2{
 width:320px ;  
@@ -53,11 +55,9 @@ padding: 20px;
   padding: 20px;
   margin-left: 5%;
   font-size: 15px;
-   display: inline-block;
-   font-family: "Heavitas";
-top: 20%;
-
-
+  display: inline-block;
+  font-family: "Heavitas";
+  top: 20%;
 
 }
 
