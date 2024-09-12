@@ -9,29 +9,8 @@
   <head>
     <link rel="stylesheet" href="./rodape.css">
     <link rel="shortcut icon" href="./src/logo-e-favicon/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
     <style>
-      .cabecalho {
-        position: fixed;
-        top: 0px;
-        left: 0px;
-        height: 10%;
-        width: 100%;
-        background-color: #000000;
-        border-top: 4px solid #f4d406;
-        border-bottom: 4px solid #f4d406;
-        z-index: 1000;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
-
-      .cabecalho a {
-        background-color: none;
-        display: flex;
-        width: 20%;
-        height: 90%;
-      }
-
 
       h1 {
 
@@ -95,7 +74,7 @@
         border-radius: 5px;
       }
 
-      a {
+      #menu a {
         background-color: black;
         color: white;
         border: none;
@@ -117,9 +96,36 @@
   </head>
 
 <body>
+  <header class="cabecalho">
+    <a href="index.html"
+      ><img class="logo" src="/src/logo-e-favicon/logo.png" alt="Logo"
+    /></a>
+
+    <div class="container-wrapper">
+
+      <div class="input-wrapper">
+        
+          <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+       
+          <input class="barra" placeholder="Buscar " type="text" id="User" name="Name"> 
+        
+        </div>
+
+      </div>
+      
+    </div>
+
+
+      
+    </div>
+   </div>
+
+  
+  </header>
+
   <div style="padding-top: 15%;">
     <form action="entrada.html" method="get">
-      <img src="./logo.png" width="100%">
+      <img src="/src/logo-e-favicon/logo.png" width="100%">
       <div id="menu">
         <h1>Já é Cliente?</h1>
         <label for="email">Email:</label>
@@ -184,38 +190,7 @@
       </p>
     </div>
   </footer>
-  <header class="cabecalho">
-    <a href="index.html"><img class="logo" src="/src/logo-e-favicon/logo.png" alt="Logo" /></a>
 
-    <div class="container-wrapper">
-
-      <div class="input-wrapper">
-
-        <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
-
-        <input class="barra" placeholder="Buscar "="text" id="User" name="Name">
-
-      </div>
-
-    </div>
-
-    </div>
-    <div class="botoes-wrapper">
-      <div class="carrinho-wrapper">
-        <div class="cart">
-          <i class="fa-solid fa-cart-shopping"></i>
-        </div>
-      </div>
-      <div class="login-wrapper">
-        <div class="login">
-          <i class="fa-regular fa-user"></i>
-          <a href="./pagina de login/Login.html">Login</a>
-        </div>
-      </div>
-    </div>
-
-
-  </header>
 
 </body>
 
