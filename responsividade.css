@@ -1,0 +1,96 @@
+@media screen and (min-width: 1300px) and (max-width: 1400px) {
+html{
+  width: 100%; 
+  height: 100%;
+}
+
+.logo{
+  margin-left: 5%;
+}
+
+.cabecalho {
+  height: 14%;
+}
+
+.mySlides {
+  display: none;
+  padding-top:10%;
+}
+
+.categorias {
+  position: fixed;
+  top: 15%;
+  height: 8%;
+  width: 100%;
+}
+
+
+#Arduino {
+  margin-left: 4%;
+}
+
+#Modulos {
+  margin-left: 8.5%;
+}
+
+#Motores {
+  margin-left: 8.5%;
+}
+
+#Componentes {
+  margin-left: 8.5%;
+}
+
+#Kits {
+  margin-left: 12%;
+}
+
+#prototipagem {
+  margin-left: 15%;
+}
+
+#impre-3D {
+  margin-left: 12%;
+}
+
+#ofertas {
+  margin-left: 11%;
+}
+
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  top: 10%;
+  margin: auto;
+}
+
+.boxs5{
+  width:20% ;  
+  height: 50px;
+  top:30%;
+  left: 71%;
+}
+
+.boxs5 img{
+  width: 90%;
+}
+
+.Rodape{
+  width: 100%;
+  height: 50%;
+}
+
+.mov-rodape{
+  padding-left: 0%;
+}
+
+.direitos{
+  position: absolute;
+  width: 100%;
+  height: 5%; 
+  top: 100%;
+  padding-bottom: 25px;
+}
+
+}
+  
