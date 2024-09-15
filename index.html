@@ -19,10 +19,20 @@
 
   <body>
     <header class="cabecalho">
-      <a href="index.html"
+      <a id="a-logo" href="index.html"
         ><img class="logo" src="/src/logo-e-favicon/logo.png" alt="Logo"
       /></a>
-
+      <!--Menu lateral-->
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" id="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#sobre">Sobre</a>
+        <a href="./menu.html" target="_blank">Nosso</a>
+        <a href="#contato">Contato</a>
+       </div>
+        <div id="main">
+          <span style="color:#f4d406; font-size:40px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </div>
       <div class="container-wrapper">
 
         <div class="input-wrapper">
@@ -203,7 +213,6 @@
 <div class="Carrosel" >
   <div class="slideshow-container">
 
-    <!-- Alterar largura e inserir texto -->
     <div class="mySlides">
       <div class="numbertext">1 / 4</div>
       <img src="./imagem/carrosel/slide1.png" style="width:100%">
@@ -292,7 +301,7 @@
     </footer>
       
   
-    <script src=" script.js"></script>
+    <script src="script.js"></script>
     <script src="carrosel.js"></script>
 ,
 
