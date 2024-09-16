@@ -22,7 +22,7 @@ html {
 #a-logo{
   background-color: none;
   display: flex;
-  width: 20%;
+  width: 25%;
   height: 90%;
 }
 
@@ -58,13 +58,10 @@ html {
   outline: none;
 }
 
-.input-wrapper:hover{
-
-  input{
+.input-wrapper input:hover{
     width: 36vh; 
-    transition: 0.5s;
-   }
-   
+    transition: 1s;
+
 
 }
 
@@ -281,23 +278,26 @@ html {
 
 .sidenav a {
   font-family:"Heavitas";
-  padding: 8px 8px 8px 32px;
-  margin-left: 9%;
+  padding: 8px 35px 8px 32px;
+  margin-left: 10%;
   text-decoration: none;
   font-size: 19px;
   color: #000000;
   background-color: #f4d406;
-  width: 45%;
+  width: 40%;
   margin-top: 15%;
   display:block;
   transition: 0.3s;
-  border: 1px solid rgb(206, 203, 203);
   border-radius: 20px;
+  border: 4px solid #f4d406 ;
+  text-align: center;
 }
 
 .sidenav a:hover {
   transition: 0.5s;
-  color: #5c5a5a;
+  color: #000000;
+  border: 4px solid #000000 ;
+  background-color: #ffffff;
 }
 
 .sidenav #closebtn {
@@ -318,6 +318,8 @@ html {
   text-align: center;
   transition: margin-left .5s;
   margin-bottom: 53px;
+  padding-left: 50px;
+  z-index: 3;
 }
 
 @media screen and (max-height: 450px) {
