@@ -22,7 +22,7 @@ html {
 #a-logo{
   background-color: none;
   display: flex;
-  width: 25%;
+  width: 20%;
   height: 90%;
 }
 
@@ -325,4 +325,28 @@ html {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 15px;}
+}
+.faixa{
+  position: absolute;
+  width: 100%;
+  background-color: blue;
+  height: 8%;
+  left: 0%;
+  display: flex;
+}
+
+.atendimento img{
+  width: 35%;
+
+  margin-left: 5%;
+  margin-top: 0.1%;
+
+}
+
+.desconto img{
+  width: 35%;
+
+  margin-left: 10%;
+  margin-top: 0.1%;
+
 }
