@@ -28,7 +28,6 @@
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  background-color: aqua;
 }
 
 /* Position the "next button" to the right */
@@ -66,10 +65,15 @@
 }
 
 /*Carrosel Navegue Pelas Categorias*/
-
-.carrosel-categoria {
+.slideshow-container2{
   max-width: 100%;
+  background-color: aqua;
   position: relative;
   margin: auto;
   top: 50%;
+}
+
+.mySlides2{
+  display: none;
+  padding-top: 8%;
 }
