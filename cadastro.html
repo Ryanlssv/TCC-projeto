@@ -100,6 +100,11 @@
       padding-left: 0%;
 
     }
+    .place {
+        text-align: center;
+        padding: 0%;
+        padding-left: 0%;
+      }
   </style>
 </head>
 
@@ -168,13 +173,13 @@
       <div id="menu">
         <h1>Cadastre-se agora!</h1>
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="usuario@gmail.com" required>
+        <input type="email" id="email" name="email" class="place" placeholder="usuario@gmail.com" required>
         <label for="cpf">CPF</label>
-        <input type="number" id="cpf" name="cpf" placeholder="XXX.XXX.XXX-XX" maxlength="14" minlength="11" required>
+        <input type="number" id="cpf" name="cpf" class="place" placeholder="XXX.XXX.XXX-XX" maxlength="14" minlength="11" required>
         <label for="senha">Senha:</label>
-        <input type="password" id="senha" name="senha" minlength="5" required>
+        <input type="password" id="senha" class="place" name="senha" minlength="5" required>
         <label for="senha"> Confirmar Senha:</label>
-        <input type="password" id="senha" name="senha" required>
+        <input type="password" id="senha" class="place" name="senha" required>
         <br><br>
         <div>
           <input type="submit" style="cursor: pointer;" value="Confirmar">
