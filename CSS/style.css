@@ -344,22 +344,20 @@ html {
 .faixa {
   position: absolute;
   width: 100%;
-  background-color: blue;
   height: 8%;
   left: 0%;
   display: flex;
+  gap: 1%;
 }
 
-.atendimento img {
-  width: 35%;
-
-  margin-left: 5%;
+.imgFaixa {
+  width: 15%;
+  margin-left: 7.5%;
   margin-top: 0.1%;
 }
 
-.desconto img {
-  width: 35%;
-
-  margin-left: 10%;
-  margin-top: 0.1%;
+.imgFaixa img {
+  width: 100%;
+  height: 100%;
 }
+
