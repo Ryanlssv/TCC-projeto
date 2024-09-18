@@ -19,7 +19,7 @@ html {
   align-items: center;
 }
 
-#a-logo{
+#a-logo {
   background-color: none;
   display: flex;
   width: 20%;
@@ -27,9 +27,8 @@ html {
 }
 
 .logo {
-  width: 100%; 
+  width: 100%;
 }
-
 
 .container-wrapper {
   position: relative;
@@ -39,7 +38,7 @@ html {
   width: 50%;
   height: 7vh;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .input-wrapper {
@@ -51,23 +50,19 @@ html {
   cursor: pointer;
 }
 
-.input-wrapper input{
+.input-wrapper input {
   background-color: transparent;
   width: 20vh;
   border: none;
   outline: none;
 }
 
-.input-wrapper input:hover{
-    width: 36vh; 
-    transition: 1s;
-
-
+.input-wrapper input:hover {
+  width: 36vh;
+  transition: 1s;
 }
 
-
-
-.botoes-wrapper{
+.botoes-wrapper {
   position: relative;
   background-color: none;
   display: flex;
@@ -78,72 +73,70 @@ html {
   background-color: blue;
   gap: 2vh;
 }
-  .carrinho-wrapper {
-    display: flex;
-    width: 15vh;
-    font-size: 120%;
-    height: 8vh;
-    font-family:Cambria, Cochin, 'Georgia', Times, Times New Roman, serif;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: none;
-    align-items: center;
-    justify-content: center;
-    gap: 2vh;
-    color: #ffffff;
-  }
-  
-  .cart {
-    font-size: 3vh;
-    display: flex;
-    align-items: center;
-    color: #f4d406;
-  }
-  
-  .login-wrapper{
-    display: flex;
-    width: 30vh;
-    height: 8vh;
-    font-size: 120%;
-    font-family:Cambria, Cochin, 'Georgia', Times, Times New Roman, serif;
-    border-radius: 5px;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center ;
-    flex-direction: row;
-    color: #ffffff;
-    background-color: blueviolet;
+.carrinho-wrapper {
+  display: flex;
+  width: 15vh;
+  font-size: 120%;
+  height: 8vh;
+  font-family: Cambria, Cochin, "Georgia", Times, Times New Roman, serif;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: none;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;
+  color: #ffffff;
+}
 
-  }
-  .texto-container{
-    background-color: rgb(79, 79, 209); 
+.cart {
+  font-size: 3vh;
+  display: flex;
+  align-items: center;
+  color: #f4d406;
+}
+
+.login-wrapper {
+  display: flex;
+  width: 30vh;
+  height: 8vh;
+  font-size: 120%;
+  font-family: Cambria, Cochin, "Georgia", Times, Times New Roman, serif;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: #ffffff;
+  background-color: blueviolet;
+}
+.texto-container {
+  background-color: rgb(79, 79, 209);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+  font-size: 50%;
+
+  .link {
     position: relative;
+    font-family: "Heavitas";
+    background-color: #f4d406;
+    width: 100%;
+    align-items: center;
+    height: 20%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 90%;
-    height: 100%;
-    font-size: 50%;
-
-    .link{
-      position: relative;
-      font-family: 'Heavitas';
-      background-color: #f4d406;
-      width: 100%;
-      align-items: center;
-      height: 20%;
-      display: flex;
-      flex-direction: row;
-      gap: 5%;
-      font-size: 100%;
-    }
-    
+    flex-direction: row;
+    gap: 5%;
+    font-size: 100%;
   }
-  .IconUser {
-    font-size: 3vh;
-    display: contents;
-    align-items: center;
-    color: #f4d406;
+}
+.IconUser {
+  font-size: 3vh;
+  display: contents;
+  align-items: center;
+  color: #f4d406;
 }
 
 .categorias {
@@ -201,13 +194,13 @@ html {
   font-size: 15px;
   border: none;
   cursor: pointer;
-  font-family:"Heavitas" ;
+  font-family: "Heavitas";
 }
 
 .btn-categoria:hover {
   color: #474646;
   font-size: 16px;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 .dropdown:hover {
@@ -215,18 +208,18 @@ html {
   transition: 0.5s;
 }
 
-.btn-ofertas{
+.btn-ofertas {
   color: black;
   font-size: 14px;
   border: none;
   cursor: pointer;
   border-bottom: 2px solid #f4d406;
-  font-family:"Heavitas" ;
+  font-family: "Heavitas";
 }
 
-.btn-ofertas:hover{
+.btn-ofertas:hover {
   font-size: 14.5px;
-  transition: 0.5s;
+  transition: 0.4s;
 }
 
 .dropdown {
@@ -243,7 +236,7 @@ html {
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  font-family:"Roboto";
+  font-family: "Roboto";
   z-index: 1;
 }
 
@@ -277,7 +270,7 @@ html {
 }
 
 .sidenav a {
-  font-family:"Heavitas";
+  font-family: "Heavitas";
   padding: 8px 35px 8px 32px;
   margin-left: 10%;
   text-decoration: none;
@@ -286,23 +279,23 @@ html {
   background-color: #f4d406;
   width: 40%;
   margin-top: 15%;
-  display:block;
+  display: block;
   transition: 0.3s;
   border-radius: 20px;
-  border: 4px solid #f4d406 ;
+  border: 4px solid #f4d406;
   text-align: center;
 }
 
 .sidenav a:hover {
   transition: 0.5s;
   color: #000000;
-  border: 4px solid #000000 ;
+  border: 4px solid #000000;
   background-color: #ffffff;
 }
 
 .sidenav #closebtn {
   position: absolute;
-  background-color:rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0);
   width: 15%;
   top: 0;
   color: #f4d406;
@@ -316,17 +309,21 @@ html {
 #main {
   height: 1px;
   text-align: center;
-  transition: margin-left .5s;
+  transition: margin-left 0.5s;
   margin-bottom: 53px;
   padding-left: 50px;
   z-index: 3;
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 15px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 15px;
+  }
 }
-.faixa{
+.faixa {
   position: absolute;
   width: 100%;
   background-color: blue;
@@ -335,18 +332,16 @@ html {
   display: flex;
 }
 
-.atendimento img{
+.atendimento img {
   width: 35%;
 
   margin-left: 5%;
   margin-top: 0.1%;
-
 }
 
-.desconto img{
+.desconto img {
   width: 35%;
 
   margin-left: 10%;
   margin-top: 0.1%;
-
 }
