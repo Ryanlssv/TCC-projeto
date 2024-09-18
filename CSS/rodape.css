@@ -154,10 +154,16 @@ p {
   position: absolute;
   width: 100%;
   background-color: #f4d406;
-  height: 7%;
+  height: 4%;
   left: 0px;
-  top: 250%;
+  padding-top: 5px;
+  top: 240%;
+  color: #000000;
   text-align: center;
+}
+
+.Direitos p {
+  padding-top: 15px;
 }
 
 .Desenvolvedores {
