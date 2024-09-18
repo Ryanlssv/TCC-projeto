@@ -1,3 +1,9 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  border: 0%;
+}
+
 html {
   height: 100%;
   width: 100%;
@@ -70,7 +76,7 @@ html {
   height: 8vh;
   right: 10vh;
   border-radius: 5px;
-  background-color: blue;
+  background-color: none;
   gap: 2vh;
 }
 .carrinho-wrapper {
@@ -104,32 +110,44 @@ html {
   border-radius: 5px;
   cursor: pointer;
   align-items: center;
+  gap: 2vh;
   justify-content: center;
   flex-direction: row;
   color: #ffffff;
-  background-color: blueviolet;
+  background-color: none;
 }
 .texto-container {
-  background-color: rgb(79, 79, 209);
+  background-color: none;
   position: relative;
-  display: flex;
+  display: block;
   flex-direction: column;
-  align-items: center;
+  align-items:center;
+  align-content: center;
   width: 90%;
   height: 100%;
-  font-size: 50%;
+  font-size: 55%;
 
-  .link {
-    position: relative;
-    font-family: "Heavitas";
-    background-color: #f4d406;
-    width: 100%;
-    align-items: center;
-    height: 20%;
-    display: flex;
-    flex-direction: row;
-    gap: 5%;
-    font-size: 100%;
+  p{
+    font-size: 110%;
+    padding: 0%;
+  }
+  
+}
+.link {
+  position: relative;
+  font-family: "Heavitas";
+  background-color: none;
+  width: 100%;
+  align-items: center;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  font-size: 110%;
+
+  a{
+    color: white;
+    text-decoration: none;
   }
 }
 .IconUser {
