@@ -64,16 +64,3 @@
   top: 0;
 }
 
-/*Carrosel Navegue Pelas Categorias*/
-.slideshow-container2{
-  max-width: 100%;
-  background-color: aqua;
-  position: relative;
-  margin: auto;
-  top: 50%;
-}
-
-.mySlides2{
-  display: none;
-  padding-top: 8%;
-}
