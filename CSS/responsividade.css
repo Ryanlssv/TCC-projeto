@@ -6,6 +6,11 @@ html{
 
 .logo{
   margin-left: 5%;
+  width: 120%;
+}
+
+#main {
+  padding-left: 90px;
 }
 
 .cabecalho {
@@ -101,6 +106,14 @@ html{
     font-size: 120%;
     height: 8vh;
     gap: 2vh;
+  }
+
+  .botoes-wrapper {
+    display: flex;
+    width: 40vh;
+    height: 8vh;
+    right: 20vh;
+    gap: 5vh;
   }
 
 }
