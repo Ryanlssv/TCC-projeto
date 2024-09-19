@@ -7,6 +7,10 @@ function plusSlides(n) {
   showSlides((slideIndex += n));
 }
 
+function plusSlides2(n) {
+  showSlides((slideIndex += n));
+}
+
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
@@ -28,5 +32,6 @@ function showSlides(n) {
 
 setInterval(function () {
   plusSlides(1);
+  plusSlides2(1);
 }, 5000);
 

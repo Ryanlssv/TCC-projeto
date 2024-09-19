@@ -1,4 +1,4 @@
-.slideshow-container {
+.slideshow-container2 {
     max-width: 100%;
     position: relative;
     margin: auto;
@@ -6,9 +6,9 @@
   }
   
   /* Hide the images by default */
-  .mySlides {
+  .Slides2 {
     display: none;
-    padding-top: 8%;
+    padding-top: 20%;
   }
   
   /* Next & previous buttons */
@@ -54,7 +54,7 @@
   }
 
 
-  
+
   .categoria-carrosel{
     background-color: aqua;
     top: 89%;
