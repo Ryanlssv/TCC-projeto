@@ -1,0 +1,88 @@
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    top: 50%;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    padding-top: 8%;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    width: auto;
+    margin-top: -22px;
+    margin-left: 1.5%;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    margin-right: 1.5%;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+
+  
+  .categoria-carrosel{
+    background-color: aqua;
+    top: 89%;
+    position: absolute;
+    width:100%;
+    height: 50%;
+  
+  }
+  
+  .text-categoria{
+    position: relative;
+    width:100%;
+    height: 10%;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Heavitas";
+  }
+  
+  .borda{
+    display: inline-block; 
+    width: 30%; 
+    border: 2px solid #000;
+    margin: 0 auto;
+    margin-left: 35%;
+    margin-bottom: 2%;
+  }
+  
+  
+  .Navegacao-carrosel{
+    
+  }
