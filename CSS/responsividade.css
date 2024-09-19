@@ -58,7 +58,6 @@ html{
 
 .slideshow-container {
   width: 100%;
-  position: relative;
   top: 10%;
   margin: auto;
 }
@@ -84,12 +83,25 @@ html{
 }
 
 .Direitos{
-  position: absolute;
   width: 100%;
   height: 5%; 
-  top: 100%;
+  top: 250%;
   padding-bottom: 25px;
 }
+
+.link {
+  position: relative;
+  width: 150%;
+  height: 20%;
+  gap: 5%;
+  }
+
+  .carrinho-wrapper {
+    width: 15vh;
+    font-size: 120%;
+    height: 8vh;
+    gap: 2vh;
+  }
 
 }
   
