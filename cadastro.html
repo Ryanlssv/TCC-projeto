@@ -106,6 +106,22 @@
         padding-left: 0%;
       }
   </style>
+  <script type="text/javascript">
+    function validarSenha(){
+
+      var campo1 = document.getElementById('senha1').value;
+      var campo2 = document.getElementById('senha2').value;
+      if(campo1 == campo2){
+document.getElementById('resultado').innerHTML = "As senhas são iguais";
+
+      }else{
+        document.getElementById('resultado').innerHTML = "As senhas não correspondem";
+      }
+
+
+
+    }
+  </script>
 </head>
 
 <body>
@@ -179,10 +195,11 @@
         <label for="senha">Senha:</label>
         <input type="password" id="senha" class="place" name="senha" minlength="5" required>
         <label for="senha"> Confirmar Senha:</label>
-        <input type="password" id="senha" class="place" name="senha" required>
+        <input type="password" id="senha" class="place" name="senha" onkeyup="validarSenha();" required>
+        <p id="resultado"></p>
         <br><br>
         <div>
-          <input type="submit" style="cursor: pointer;" value="Confirmar">
+          <input type="submit"  value="Confirmar">
         </div>
       </div>
     </form>
