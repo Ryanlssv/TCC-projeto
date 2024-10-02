@@ -1,7 +1,61 @@
 .Produtos-vendidos{
     position: absolute;
     top: 135%;
-    background-color: aqua;
     height: 80%;
     width: 100%;
   }
+
+  .product-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px 20px 75px ;
+  width: 280px;
+  text-align: center;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+.product-image {
+  width: 100%;
+  height: auto;
+}
+.product-title {
+  padding-top: 15px;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.product-descrição {
+  font-size: 16px;
+}
+
+.product-parcela {
+  font-size: 15px;
+}
+
+.product-price {
+  font-size: 20px;
+  padding-top: 10px;
+  color: #f4d406;
+}
+.add-to-cart {
+  background-color: #ecce09;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-family: "Heavitas";
+  border: 2px black solid;
+  padding: 15px ;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.add-to-cart:hover {
+  background-color: #45a049;
+  transition: 1s;
+}  
+
+.product-card:hover{
+  width: 16%;
+  transition: 1s;
+
+}
