@@ -1,6 +1,5 @@
     
     .categoria-carrosel{
-
     top: 89%;
     position: absolute;
     width:100%;
@@ -28,8 +27,8 @@
   }
   
   .carousel-item img {
-    width: 90%;
-    margin-left: 35%;
+    width: 75%;
+    margin-left: 40%;
   }
   
   .carousel-control {
