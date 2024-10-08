@@ -14,6 +14,7 @@
   margin: 10px;
   display: inline-block;
   vertical-align: top;
+  cursor: pointer;
 }
 .product-image {
   width: 100%;
