@@ -279,40 +279,33 @@
   <div class="borda2" ></div>
 </div>
 <div class="filtroDiv">
-  <div></div>
   <div class="Filtro-categorias" >
     <div id="text-categoria-filtro" >
       <h1>Categorias</h1>
-       <div class="btn-filtro-categoria" >
-         <label for="Arduino">Arduinos</label>
-         <input id="Arduinos" type="checkbox">
-       </div>
-       <div class="btn-filtro-categoria" >
-        <label for="Componentes">Módulos</label>
-        <input id="Componentes" type="checkbox">
+      <div class="btn-filtro-categoria">
+        <label for="Arduinos">Arduinos</label>
+        <input type="checkbox" id="categoria-arduino" class="categoria-checkbox" value="Arduinos">
       </div>
-      <div class="btn-filtro-categoria" >
-        <label for="Componentes">Motores</label>
-        <input id="Componentes" type="checkbox">
+      <div class="btn-filtro-categoria">
+        <label for="Modulos">Módulos</label>
+        <input type="checkbox" id="categoria-modulo" class="categoria-checkbox" value="Módulos">
       </div>
-      <div class="btn-filtro-categoria" >
+      <div class="btn-filtro-categoria">
+        <label for="Motores">Motores</label>
+        <input type="checkbox" id="categoria-motor" class="categoria-checkbox" value="Motores">
+      </div>
+      <div class="btn-filtro-categoria">
         <label for="Componentes">Componentes</label>
-        <input id="Componentes" type="checkbox">
-      </div>
-      <div class="btn-filtro-categoria" >
-        <label for="Componentes">kit Componentes</label>
-        <input id="Componentes" type="checkbox">
-      </div>
-      <div class="btn-filtro-categoria" >
-        <label for="Componentes">Prototipagem</label>
-        <input id="Componentes" type="checkbox">
-      </div>
-      <div class="btn-filtro-categoria" >
-        <label for="Componentes">impressão-3D</label>
-        <input id="Componentes" type="checkbox">
+        <input type="checkbox" id="categoria-componente" class="categoria-checkbox" value="Componentes">
       </div>
     </div>
+    <div class="Filtro-Preço">
+      <h1>Preço</h1>
+      <input type="range" id="preco-range" min="0" max="100" value="50" oninput="atualizarPreco(this.value)">
+      <p>Até R$ <span id="preco-valor">50</span></p>
+    </div>
   </div>
+  <button onclick="filtrarProdutos()">Aplicar Filtros</button>
 </div>
 
 </body>
@@ -322,4 +315,5 @@
       src="https://kit.fontawesome.com/02669f3445.js"
       crossorigin="anonymous"
     ></script>
+<script src="./filtos.js"></script>    
 </html>
