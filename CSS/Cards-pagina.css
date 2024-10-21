@@ -156,17 +156,31 @@
   position: absolute;
   width: 100%;
   top: 105%;
-  height: 30%;
+  height: 25%;
   border-radius: 2%;
   border: 1px solid #ddd;
 }
 
-.Filtro-categorias, .Filtro-Preço {
-  margin-bottom: 20px;
+.text-Filtro-Preco{
+  position: relative;
+  padding-top: 15px;
+  width:60%;
+  height: 15%;
+  left: 20%;
+  text-align: center;
+  font-size: 9px;
+  right:35%;
+  font-family: "Heavitas";
+}
+
+.Filtro-Preço p {
+  text-align: center;
 }
 
 #preco-range {
-  width: 100%;
+  width: 70%;
+  margin-top: 10%;
+  margin-left: 12%;
 }
 
 #preco-valor {
