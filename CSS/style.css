@@ -78,6 +78,7 @@ html {
   border-radius: 5px;
   background-color: none;
   gap: 2vh;
+  
 }
 .carrinho-wrapper {
   display: flex;
@@ -89,6 +90,7 @@ html {
   cursor: pointer;
   background-color: none;
   align-items: center;
+  text-decoration: none;
   justify-content: center;
   gap: 2vh;
   color: #ffffff;

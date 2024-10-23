@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width" />
     <title>Armazem da Eletronica</title>
     <link href="./CSS/style.css" rel="stylesheet" type="text/css" />
-    <link href="./CSS/rodape.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="font.css">
     <link rel="stylesheet" href="./CSS/carrosel.css">
     <link rel="stylesheet" href="./CSS/carrosel2.css">
     <link rel="stylesheet" href="./CSS/responsividade.css">
     <link rel="shortcut icon" href="./src/logo-e-favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./CSS/ProdutoMaisVendidos.css">
+    <link rel="stylesheet" href="./CSS/Barra-de-compra.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -70,8 +70,10 @@
   
       
       </header>
+<!--NAVBAR-->
+      <Div>
 
-      <div id="mySidenav" class="sidenav">
+       <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" id="closebtn" onclick="closeNav()">&times;</a>
         <a href="#"> Home</a>
         <a href="#sobre">Sobre</a>
@@ -81,14 +83,98 @@
         <div id="main">
           <span style="color:#f4d406; font-size:40px;cursor:pointer" onclick="openNav()">&#9776;</span>
         </div>
-      <script
-      src="https://kit.fontawesome.com/02669f3445.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="script.js"></script>
-    <script src="carrosel.js"></script>
-    <script src="script-carrosel2.js"></script>
-    <script src="./CardProduto.js" ></script>
+      
 
+      </Div>
+
+      <!--Tela de check-out-->
+    <div class="tela">
+      <div class="confirma-pagamento">
+        
+        <div class="cards">
+
+          <div class="dados">
+
+          </div>
+        
+          <div class="pag-entrega">
+
+          </div>
+
+          <div class="produtos-car">
+            
+          </div>
+
+        </div>
+        <button class="Finalizar">
+          FINALIZAR
+        </button>
+      </div>
+
+    </div>
+
+        <!--rodape-->
+        <footer class="Rodape">
+          <!--1-->
+          <div class="boxs-logo" >
+        
+             <img src="./src/logo-e-favicon/logo.png" width="25%" style="margin-left: 5%; padding-top: 2%; "   alt= "">
+        
+          </div>
+          <div class="mov-rodape" >
+            <!--2-->
+           <div class="boxs2">
+            <h3>SOBRE NÓS</h3>
+            <p>
+              No armazém da Eletrônica, oferecemos uma ampla gama de componentes eletrônicos de alta qualidade, atendendo deste hobbylistas até profissionais,
+              garantindo a melhor experiência de compra. 
+            </p>
+          </div>
+               <!--3-->
+              <div class="boxs3">
+         
+                <ul>
+                  <h3>CONTATO</h3>
+                  <li><a href="#"></a></li> 
+                  <p style="font-family:Heavitas;">
+                  <i class="fa-solid fa-envelope"> E-mail: </i><li><a href="#">armazemdaeletronica@gmail.com  </a></li>
+                </p>
+                <p>
+                  <i class="fa-solid fa-square-phone"> Telefone: </i><li><a href="#"> (11)95980-4209</a></li> 
+                </p>
+                </ul>
+              </div> 
+              <!--4-->
+              <div class="boxs4">
+                <h3> rede sociais</h3>
+                <p>
+                <i class="fa-brands fa-instagram"></i> @armazemdaeletronica
+              </p>
+              <p>
+                <i class="fa-brands fa-facebook"></i> @armazemdaeletronica
+              </p>
+              <p>
+                <i class="fa-brands fa-whatsapp"></i> (11)94086-4488
+              </p>
+              <p>
+                <i class="fa-brands fa-bluesky"></i>  @armazemdaeletronica
+              </p>
+              </div>
+              <div class="boxs5">
+                 <h3>Formas de Pagamento</h3>
+               <img src="./imagem/pagamento.png" alt="">
+              </div>
+            </div>
+            </footer>
+
+           <!--scripts--> 
+            <script
+            src="https://kit.fontawesome.com/02669f3445.js"
+            crossorigin="anonymous"
+          ></script>
+          <script src="script.js"></script>
+          <script src="carrosel.js"></script>
+          <script src="script-carrosel2.js"></script>
+          <script src="./CardProduto.js" ></script>
 </body>
 </html>
