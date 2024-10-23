@@ -205,6 +205,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 
 .btn-categoria {
@@ -213,6 +214,7 @@ html {
   border: none;
   cursor: pointer;
   font-family: "Heavitas";
+  text-decoration: none;
 }
 
 .btn-categoria:hover {
@@ -245,6 +247,7 @@ html {
   display: inline-block;
   padding-top: 15px;
   margin-left: 10px;
+  text-decoration: none;
 }
 
 .dropdown-content {
@@ -255,6 +258,7 @@ html {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   font-family: "Roboto";
+  text-decoration: none;
   z-index: 1;
 }
 
