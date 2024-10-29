@@ -237,6 +237,7 @@ html {
   cursor: pointer;
   border-bottom: 2px solid #f4d406;
   font-family: "Heavitas";
+  text-decoration: none;
 }
 
 .btn-ofertas:hover {
