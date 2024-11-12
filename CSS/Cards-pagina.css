@@ -203,3 +203,97 @@
   border-radius: 1%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
+
+/* Estilos do Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  padding-top: 30px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.363);
+}
+
+.modal-content {
+  background-color: #ffffff;
+  margin: auto;
+  border: 2px solid #888;
+  width: 100%;
+  height: 90%;
+  max-width: 70%;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.close {
+  color: #aaaaaa00;
+  float: right;
+  margin-top: 2%;
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.borde-modal{
+  width: 67.8%;
+  height: 82%;
+  left: 16%;
+  position: absolute;
+  top: 6%;
+  border-radius: 8px;
+  border: 2px solid #a09d9d;
+  background-color: rgba(0, 0, 255, 0);
+}
+
+.modal-product-image {
+  width: 50%;
+  margin-right: 40%;
+  margin-top: 5%;
+  margin-bottom: 5px;
+
+}
+
+.modal-product-info{
+  position: absolute;
+  width: 45%;
+  top: 20%;
+  left: 45%;
+  height: 50%;
+}
+
+.modal-product-title {
+  font-size: 25px;
+  width: 90%;
+  font-family:"Heavitas" ;
+  margin-bottom: 10px;
+}
+
+.modal-product-description {
+  font-size: 18px;
+  margin-bottom: 10px;
+  width: 60%;
+  margin-left: 20%;
+}
+
+
+.modal-product-parcela {
+  font-size: 17px;
+  width:32%;
+  margin-left: 43%;
+  margin-top: -7%;
+  margin-bottom: 10px;
+
+}
+
+.modal-product-price {
+  font-size: 25px;
+  color: #f4d406;
+  width: 25%;
+  margin-top: 8%;
+  margin-left: 23%;
+  margin-bottom: 20px;
+}

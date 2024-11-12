@@ -323,9 +323,25 @@
     <i class="fa-solid fa-filter" style="color: #000000;"></i> <button onclick="filtrarProdutos()">Aplicar Filtros</button>
   </div>
 </div>
+<!-- Modal de Produto -->
+<div id="productModal" class="modal">
+  <div class="modal-content">
+    <div class="borde-modal" ></div>
+        <span class="close">&times;</span>
+      <img id="modal-product-image" class="modal-product-image" src="" alt="Product Image">
+      <div class="modal-product-info">
+        <h2 id="modal-product-title" class="modal-product-title"></h2>
+        <p id="modal-product-description" class="modal-product-description"></p>
+        <p id="modal-product-price" class="modal-product-price"></p>
+        <p id="modal-product-parcela" class="modal-product-parcela"></p>
+        <button class="add-to-cart">Adicionar ao Carrinho</button>
+      </div>
+  </div>
+</div>
 
 </body>
 <script src="carrosel.js"></script>
+<script src="./modalcard.js"></script>
 <script src="./IndexCardPorduto.js"></script>
 <script
       src="https://kit.fontawesome.com/02669f3445.js"
