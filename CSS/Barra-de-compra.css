@@ -58,12 +58,11 @@ body{
   justify-content: center;
   position: relative;
   border-radius: 20px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   top: 0%;
-  background-color: rgb(192, 192, 192);
+  background-color: none(192, 192, 192);
   width:160vh;
   height: 70vh;
-  gap: 2%;
+  gap:2.5%;
 
 }
 
@@ -71,30 +70,30 @@ body{
   position: relative;
   border-radius: 20px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  top: 0%;
-  background-color: rgb(223, 0, 0);
-  width: 28%;
-  height: 100%;
+  top: 5%;
+  background-color: rgb(238, 238, 238);
+  width: 30%;
+  height: 95%;
 }
 
 .pag-entrega{
   position: relative;
   border-radius: 20px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  top: 0%;
-  background-color: rgb(223, 0, 0);
-  width: 28%;
-  height: 100%;
+  top: 5%;
+  background-color: rgb(238, 238, 238);
+  width: 30%;
+  height: 95%;
 }
 
 .produtos-car {
   position: relative;
   border-radius: 20px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  top: 0%;
-  background-color: rgb(223, 0, 0);
-  width: 35%;
-  height: 100%;
+  top: 5%;
+  background-color: rgb(238, 238, 238);
+  width: 30%;
+  height: 95%;
 }
 
 .Finalizar {
@@ -106,7 +105,7 @@ body{
   width: 40vh;
   height:6vh;
   top: 90%;
-  left: 74%
+  left: 70%
 }
 
 
