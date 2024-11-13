@@ -216,7 +216,20 @@
   height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.363);
+  -webkit-animation: scale-in 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+	        animation: scale-in 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940);
 }
+
+@keyframes scale-in {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  }
 
 .modal-content {
   background-color: #ffffff;
@@ -267,7 +280,7 @@
 
 .modal-product-title {
   font-size: 25px;
-  width: 90%;
+  width: 93%;
   font-family:"Heavitas" ;
   margin-bottom: 10px;
 }
@@ -276,7 +289,7 @@
   font-size: 18px;
   margin-bottom: 10px;
   width: 60%;
-  margin-left: 20%;
+  margin-left: 17%;
 }
 
 
@@ -297,3 +310,50 @@
   margin-left: 23%;
   margin-bottom: 20px;
 }
+
+.pagamemtos-div{
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  margin-left: 21%;
+  margin-top: 5%;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  width: 60%;
+  height: 20%;
+}
+.pagamemtos-div img{
+  width: 100%;
+}
+
+.frete-div{
+  border-radius: 8px;
+  margin-left: 28.5%;
+  margin-top: 5%;
+  width: 45%;
+  height: 20%;
+}
+.frete-div img{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border: 2px solid #000000;
+}
+
+.descricao-div{
+  border: 2px solid #ddd;
+  position: absolute;
+  background-color: rgb(232, 235, 235);
+  border-radius: 8px;
+  margin-left: 3%;
+  top: 53%;
+  width: 35%;
+  height: 30%;
+}
+
+.descricao-div h1{
+  font-family: "Heavitas";
+  padding-top: 10px;
+  font-size: 24px;
+}
+
