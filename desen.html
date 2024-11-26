@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./CSS/carrosel.css">
   <link rel="stylesheet" href="./CSS/responsividade.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./CSS/AnimacaoCarregamento.css">
   <style>
     h1{ text-align: center;
     margin-top: 200px;
@@ -32,6 +33,17 @@
   </style>
 </head>
 <body>
+  <div class="carregando" >
+    <span class="pontos"></span>
+    <span class="pontos"></span>
+    <span class="pontos"></span>
+  </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(window).on("load",function(){
+  $(".carregando").fadeOut(2000);
+});
+</script>
     <h1>DESENVOLVEDORES</h1><br>
 <p>Site desenvolvido pela equipe de alunos do Célia Ribeiro<br>
     Criação dos alunos do 3°Tec.<br> 
