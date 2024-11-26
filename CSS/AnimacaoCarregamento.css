@@ -1,0 +1,43 @@
+:root{
+    --cor-de-fundo: #0a0a0a ;
+    --cor-pontos: #f4d406 ;
+    --tamanho: 5px;
+}
+
+
+
+.carregando{
+    background-color: var(--cor-de-fundo);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1002;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pontos{
+    border:var(--tamanho) solid var(--cor-pontos) ;
+    border-radius: 50%;
+    margin: calc(var(--tamanho)*2);
+}
+.pontos:nth-child(1){
+ animation: pre-carregamento .6s ease-in-out alternate infinite;
+}
+.pontos:nth-child(2){
+ animation: pre-carregamento .6s ease-in-out alternate .2s infinite;
+}
+.pontos:nth-child(3){
+ animation: pre-carregamento .6s ease-in-out alternate .4s infinite;
+}
+
+
+@keyframes pre-carregamento {
+    100% {
+        transform: scale(2);
+    }
+}

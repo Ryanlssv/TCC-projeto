@@ -13,9 +13,22 @@
     <link rel="shortcut icon" href="./src/logo-e-favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./CSS/ProdutoMaisVendidos.css">
     <link rel="stylesheet" href="Barra-de-compra.css">
+    <link rel="stylesheet" href="./CSS/AnimacaoCarregamento.css">
     </head>
 
   <body>
+    <div class="carregando" >
+      <span class="pontos"></span>
+      <span class="pontos"></span>
+      <span class="pontos"></span>
+    </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(window).on("load",function(){
+    $(".carregando").fadeOut(2000);
+  });
+</script>
+
     <header class="cabecalho">
       <a id="a-logo" href="index.html"
         ><img class="logo" src="/src/logo-e-favicon/logo.png" alt="Logo"

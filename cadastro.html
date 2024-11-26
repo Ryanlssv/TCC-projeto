@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="./CSS/rodape.css">
   <link rel="shortcut icon" href="./src/logo-e-favicon/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" href="./CSS/AnimacaoCarregamento.css">
 
   <style>
 
@@ -125,6 +126,17 @@ document.getElementById('resultado').innerHTML = "As senhas são iguais";
 </head>
 
 <body>
+  <div class="carregando" >
+    <span class="pontos"></span>
+    <span class="pontos"></span>
+    <span class="pontos"></span>
+  </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(window).on("load",function(){
+  $(".carregando").fadeOut(1000);
+});
+</script>
   <header class="cabecalho">
     <a id="a-logo" href="index.html"
       ><img class="logo" src="/src/logo-e-favicon/logo.png" alt="Logo"
