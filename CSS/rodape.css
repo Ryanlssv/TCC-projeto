@@ -49,7 +49,7 @@
   width: 320px;
   min-height: 150px;
   padding: 7px;
-  margin-left: 5%;
+  margin-left: -5%;
   font-size: 15px;
   display: inline-block;
   font-family: "Heavitas";
@@ -58,11 +58,12 @@
   position: absolute;
   width: 320px;
   min-height: 150px;
-  padding: 20px;
-  margin-left: 5%;
+  padding: 2px;
+  margin-left: -1%;
   font-size: 15px;
   display: inline-block;
   font-family: "Heavitas";
+  margin-top: 3%;
   top: 20%;
 }
 
