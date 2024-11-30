@@ -21,7 +21,6 @@ html{
   display: none;
   padding-top:10%;
 }
-
 .categorias {
   top: 15.5%;
   height: 8%;
@@ -150,5 +149,47 @@ html{
 margin-top:10%;
   }
 
+  .IndexCard{
+    position: absolute;
+    margin-top: 8%;
+  }
+
+  #text-categoria{
+    font-size: 10px;
+  }
+
+  .Elementofiltro{
+      position: absolute;
+      margin-top: 7.5%;
+      font-size: 16px;
+  
+  }
+  
+    .filtroDiv{
+    
+    position: absolute;
+    width: 17%;
+    left: 3%;
+    margin-top: 8%;
+    height: 80%;
+  }
+  
+    #text-categoria-filtro{
+    font-size: 8px;
+  }
+  
+
+   .BntFiltros button{
+    font-size: 13px;
+    margin-bottom:5%;
+  } 
+  
+    .text-Filtro-Preco{
+    position: relative;
+    font-size: 8px;
+  }
+
 }
+
+
   
