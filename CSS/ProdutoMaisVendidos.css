@@ -55,9 +55,3 @@
   background-color: #ffde59;
   transition: 1s;
 }  
-
-.product-card:hover{
-  width: 16%;
-  transition: 1s;
-
-}

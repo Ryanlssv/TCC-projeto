@@ -1,4 +1,4 @@
-@media screen and (min-width: 1300px) and (max-width: 1400px) {
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
 html{
   width: 100%; 
   height: 100%;
@@ -67,11 +67,32 @@ html{
   margin: auto;
 }
 
-.boxs5{
-  width:20% ;  
-  height: 50px;
-  top:30%;
-  left: 71%;
+.boxs4 {
+  width: 320px;
+  min-height: 10px;
+  padding: 10px;
+  margin-left: -1%;
+  font-size: 13px;
+ 
+}
+
+  .boxs5 {
+  position:absolute;
+  width: 220px;
+  min-height: 70px;
+  font-size: 13px;
+  top:25%;
+  margin-left:-16%;
+
+}
+
+  .boxs6 {
+  position: absolute;
+  width: 300px;
+  margin-left: -1%;
+  right:2%;
+  font-size: 15px;
+  top: 15%;
 }
 
 .boxs5 img{
@@ -81,17 +102,19 @@ html{
 .Rodape{
   width: 100%;
   height: 50%;
+    top: 620%;
 }
 
-.mov-rodape{
-  padding-left: 0%;
-}
 
 .Direitos{
   width: 100%;
   height: 5%; 
-  top: 250%;
+  top: 670%;
   padding-bottom: 25px;
+}
+
+.mov-rodape{
+  padding-left: 0%;
 }
 
 .link {
@@ -114,6 +137,17 @@ html{
     height: 8vh;
     right: 20vh;
     gap: 5vh;
+  }
+
+  .categoria-carrosel{
+    top: 100%;
+    position: absolute;
+  
+  }
+
+  .Produtos-vendidos{
+    position: absolute;
+margin-top:10%;
   }
 
 }
