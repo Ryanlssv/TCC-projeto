@@ -229,3 +229,31 @@ p {
   left: 27%;
   text-align: center;
 }
+
+/*RODAPE AJUSTE INDEX CARD PRODUTO*/
+
+.Rodape-INDEXCARD {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  top: 300%;
+  left: 0px;
+  background-color: #000000;
+  color: white;
+}
+
+.Direitos-INDEXCARD {
+  position: absolute;
+  width: 100%;
+  background-color: #f4d406;
+  height: 4%;
+  left: 0px;
+  padding-top: 5px;
+  top: 340%;
+  color: #000000;
+  text-align: center;
+}
+
+.Direitos-INDEXCARD p {
+  padding-top: 15px;
+}
