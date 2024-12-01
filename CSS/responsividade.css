@@ -162,33 +162,40 @@ margin-top:10%;
       position: absolute;
       margin-top: 7.5%;
       font-size: 16px;
-  
   }
-  
+
+  .Filtro-categorias{
+    margin-top: 10%;
+  }
+
     .filtroDiv{
-    
+  
     position: absolute;
     width: 17%;
     left: 3%;
-    margin-top: 8%;
+    margin-top: 9%;
     height: 80%;
   }
   
     #text-categoria-filtro{
     font-size: 8px;
+    
   }
   
 
    .BntFiltros button{
     font-size: 13px;
-    margin-bottom:5%;
-  } 
-  
-    .text-Filtro-Preco{
-    position: relative;
-    font-size: 8px;
-  }
 
+  } 
+
+  .Filtro-Preço{
+    margin-top: 10%;
+  }
+   
+  .modal-product-description {
+    font-size: 10px;
+  }
+  
 }
 
 
