@@ -49,7 +49,7 @@ html{
 }
 
 #prototipagem {
-  margin-left: 15%;
+  margin-left: 5%;
 }
 
 #impre-3D {
@@ -57,7 +57,7 @@ html{
 }
 
 #ofertas {
-  margin-left: 11%;
+  margin-left: 12%;
 }
 
 .slideshow-container {
@@ -210,5 +210,233 @@ margin-top:20%;
   
 }
 
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+  html{
+    width: 100%; 
+    height: 100%;
+  }
+  
+  .logo{
+    margin-left: 5%;
+    width: 125%;
+  }
+  
+  #main {
+    padding-left: 65px;
+  }
+  
+  .cabecalho {
+    height: 12%;
+  }
+  
+  .mySlides {
+    display: none;
+    padding-top:14%;
+  }
+  .categorias {
+    top: 13.5%;
+    height: 7%;
+    width: 100%;
+  }
+  
+  
+  #Arduino {
+    margin-left: 1%;
+  }
+  
+  #Modulos {
+    margin-left:10%;
+  }
+  
+  #Motores {
+    margin-left: 10.5%;
+  }
+  
+  #Componentes {
+    margin-left: 10%;
+  }
+  
+  #Kits {
+    margin-left: 15%;
+  }
+  
+  #prototipagem {
+    margin-left: 6%;
+  }
+  
+  #impre-3D {
+    margin-left: 15%;
+  }
+  
+  #ofertas {
+    margin-left: 14%;
+  }
+  
+  .slideshow-container {
+    width: 100%;
+    top: 10%;
+    margin: auto;
+  }
+  
+  .boxs4 {
+    width: 250px;
+    min-height: 10px;
+    padding: 10px;
+    margin-left: 3%;
+    margin-top: -50px;
+    font-size: 13px;
+  }
+  
+    .boxs5 {
+    position:absolute;
+    width: 220px;
+    min-height: 70px;
+    font-size: 13px;
+    top:65%;
+    margin-left:5%;
+  
+  }
+  
+    .boxs6 {
+    position: absolute;
+    width: 300px;
+    margin-left: -1%;
+    right:2%;
+    font-size: 15px;
+    top: 15%;
+  }
+  
+  .boxs5 img{
+    width: 90%;
+  }
+  
+  .Rodape{
+    width: 100%;
+    height: 50%;
+      top: 530%;
+  }
+  
+  .Rodape-INDEXCARD{
+    width: 100%;
+    height: 50%;
+      top: 580%;
+  }
+  
+  .Direitos{
+    width: 100%;
+    height: 5%; 
+    top: 580%;
+    padding-bottom: 25px;
+  }
+  
+  .Direitos-INDEXCARD {
+    width: 100%;
+    height: 5%; 
+    top: 630%;
+    padding-bottom: 25px;
+  }
+  
+  .mov-rodape{
+    padding-left: 0%;
+  }
+  
+  .link {
+    position: relative;
+    width: 150%;
+    height: 20%;
+    gap: 5%;
+    }
+  
+    .carrinho-wrapper {
+      width: 15vh;
+      font-size: 120%;
+      height: 8vh;
+      gap: 2vh;
+    }
+  
+    .botoes-wrapper {
+      display: flex;
+      width: 40vh;
+      height: 8vh;
+      right: 9vh;
+      gap: 5vh;
+    }
+
+    .texto-container {
+      padding-top: 19%;
+    }
+  
+    .categoria-carrosel{
+      top: 80%;
+      position: absolute;
+    
+    }
+  
+    .Produtos-vendidos{
+      position: absolute;
+  margin-top:-10%;
+    }
+  
+    .IndexCard{
+      position: absolute;
+      margin-top: -10%;
+      margin-left: 3%;
+    }
+  
+    #text-categoria{
+      font-size: 10px;
+    }
+  
+    .Elementofiltro{
+        position: absolute;
+        margin-top: -12%;
+        font-size: 16px;
+    }
+  
+    .Filtro-categorias{
+      margin-top: 10%;
+    }
+  
+      .filtroDiv{
+    
+      position: absolute;
+      width: 17%;
+      padding-right:50px;
+      padding-right: 5%;
+      margin-top: -9%;
+      height: 80%;
+    }
+    
+      #text-categoria-filtro{
+      font-size: 8px;
+      
+    }
+    
+  
+     .BntFiltros button{
+      font-size: 13px;
+
+    } 
+  
+    .Filtro-Preço{
+      margin-top: 10%;
+    }
+     
+    .modal-product-description {
+      font-size: 10px;
+    }
+
+    .modal-product-image {
+      width: 30%;
+      position: absolute;
+      top: 15%;
+      margin-right: -10%;
+      right: 3%;
+      margin-top: -20%;
+      margin-bottom: 0px;
+    
+    }
+    
+  }
 
   
