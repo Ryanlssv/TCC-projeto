@@ -4,6 +4,10 @@
   border: 0%;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 body{
   background-color: rgb(230, 230, 230);
 }
@@ -243,10 +247,14 @@ button{
   color: white;
   border-radius: 4px;
   border-color: rgb(37, 212, 37);
-  width: 40vh;
+  width: 53vh;
   height:6vh;
   top: 90%;
-  left: 70%
+  left: 65%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 150%;
+  letter-spacing: 1px;
+
 }
 
 .Finalizar:hover {
@@ -255,10 +263,10 @@ button{
   color: white;
   border-radius: 4px;
   border-color: rgb(37, 212, 37);
-  width: 40vh;
+  width: 53vh;
   height:6vh;
   top: 90%;
-  left: 70%;
+  left: 65%;
   transition:0.2s;
 } 
 
@@ -383,7 +391,32 @@ border-radius: 10px;
 }
 
 
+.valor-total{
+  position: relative;
+  display: flex;
+  background-color: rgb(233, 233, 233); 
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  border-color: rgb(158, 158, 158);
+  width: 100vh;
+  height:6vh;
+  top: 2.5%;
+  left: 1.5%;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
+  p {
+    font-size: 120%;
+    color: #636363;
+  }
+
+  span{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 120%;
+    color: #000000;
+  }
+}
 
 
 

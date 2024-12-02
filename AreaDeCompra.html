@@ -74,7 +74,7 @@
 
     // Adiciona o valor total ao final da lista
     const totalDiv = document.getElementById('total');
-    totalDiv.innerHTML = `<h3>Total: R$${total.toFixed(2)}</h3>`;
+    totalDiv.innerHTML = `<p>Total: <span>R$${total.toFixed(2)}</span> </p>`;
   }
 
 // Função para alterar a quantidade de um produto no carrinho
@@ -256,9 +256,11 @@ $(window).on("load",function(){
         </div>
         
         <button class="Finalizar">
-          FINALIZAR
+          FINALIZAR COMPRA
         </button>
-        <div id="total"></div>
+        <div class="valor-total">  
+          <div id="total"></div>
+        </div>
       </div>
 
     </div>
