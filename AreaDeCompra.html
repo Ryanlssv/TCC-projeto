@@ -15,7 +15,98 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./CSS/AnimacaoCarregamento.css">
 </head>
+
+
+
 <body>
+
+  <script>
+    function loadCart() {
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    const produtosCar = document.getElementById('produtos-car');
+
+    produtosCar.innerHTML = '';
+
+    if (cart.length === 0) {
+        produtosCar.innerHTML = `
+         <div class="Cart-null">
+          <p>Seu carrinho está vazio.</p>
+          </div>`  ;
+        return;
+    }
+
+    let total = 0;
+    cart.forEach((product, index) => {
+        const productDiv = document.createElement('div');
+        productDiv.className = 'product-item';
+        productDiv.innerHTML = `
+
+          <div class="img-name">
+            <img src="${product.image}" alt="${product.name}"/>
+            <h6>${product.name}</h5>
+          </div>
+
+          <div class="preco-uni">
+            <p><strong>Preço Unitário:</strong></p>
+            <p> ${product.preço}</p>
+          </div>
+
+          <div class="quant-content">
+            <p><strong>Quantidade:</strong></p>
+            <div class="qty">        
+              <button onclick="changeQuantity(${index}, -1)">-</button>
+              ${product.quantidade}
+              <button onclick="changeQuantity(${index}, 1)">+</button>
+            </div>
+          </div>
+
+            <p><strong>Subtotal:</strong> R$${(parseFloat(product.preço.replace('R$', '').replace(',', '.')) * product.quantidade).toFixed(2)}</p>
+            <button id="remove" onclick="removeFromCart(${index})">X</button>
+
+
+        `;
+        produtosCar.appendChild(productDiv);
+
+        // Atualiza o total
+        const price = parseFloat(product.preço.replace('R$', '').replace(',', '.'));
+        total += price * product.quantidade;
+    });
+
+    // Adiciona o valor total ao final da lista
+    const totalDiv = document.getElementById('total');
+    totalDiv.innerHTML = `<h3>Total: R$${total.toFixed(2)}</h3>`;
+  }
+
+// Função para alterar a quantidade de um produto no carrinho
+function changeQuantity(index, amount) {
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    if (cart[index]) {
+        cart[index].quantidade += amount;
+
+        // Remove o produto se a quantidade for 0 ou menor
+        if (cart[index].quantidade <= 0) {
+            cart.splice(index, 1);
+        }
+
+        localStorage.setItem('cart', JSON.stringify(cart));
+        loadCart();
+    }
+}
+
+// Função para remover um item do carrinho
+function removeFromCart(index) {
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    cart.splice(index, 1); // Remove o item pelo índice
+    localStorage.setItem('cart', JSON.stringify(cart));
+    loadCart(); // Recarrega o carrinho atualizado
+}
+
+// Carrega o carrinho ao abrir a página
+window.onload = loadCart;
+
+
+</script>
+
   <div class="carregando" >
     <span class="pontos"></span>
     <span class="pontos"></span>
@@ -154,129 +245,20 @@ $(window).on("load",function(){
 
           </div>
           <!--produtos no carrinho-->
-          <div class="produtos-car">
-            <div class="content">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Produto</th>
-                    <th>Preço</th>
-                    <th>Quantidade</th>
-                    <th>Total</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <td>
-                    <div class="product">
-                      <img src="./imagem/img-Card-maisVendido/img2.png" alt="">
-                      <div class="info">
-                        <div class="name">
-                          <p>Nome do produto</p>
-                        </div>
-                        <div class="descri">
-                          <p>Informações sobre</p>
-                        </div>
-                      </div>
-                    </div>
-                  </td>
-                  <td >R$50,00</td>
-                  <td>
-                    <div class="qty">
-                      <button>-</button>
-                      <span>2</span>
-                      <button>+</button>
-                    </div>
-                  </td>
-                  <td>R$100,00</td>
-                  <td><button class="remove"><i class='bx bx-x'></i></button></td>
-                </tbody>
-              </table>
+          <div class="produtos-carrin">
+            <div id="produtos-car">
+  
+
+
             </div>
-
-            <div class="content">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Produto</th>
-                    <th>Preço</th>
-                    <th>Quantidade</th>
-                    <th>Total</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <td>
-                    <div class="product">
-                      <img src="./imagem/img-Card-maisVendido/img2.png" alt="">
-                      <div class="info">
-                        <div class="name">
-                          <p>Nome do produto</p>
-                        </div>
-                        <div class="descri">
-                          <p>Informações sobre</p>
-                        </div>
-                      </div>
-                    </div>
-                  </td>
-                  <td >R$50,00</td>
-                  <td>
-                    <div class="qty">
-                      <button>-</button>
-                      <span>2</span>
-                      <button>+</button>
-                    </div>
-                  </td>
-                  <td>R$100,00</td>
-                  <td><button class="remove"><i class='bx bx-x'></i></button></td>
-                </tbody>
-              </table>
-            </div>
-
-            <div class="content">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Produto</th>
-                    <th>Preço</th>
-                    <th>Quantidade</th>
-                    <th>Total</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <td>
-                    <div class="product">
-                      <img src="./imagem/img-Card-maisVendido/img2.png" alt="">
-                      <div class="info">
-                        <div class="name">
-                          <p>Nome do produto</p>
-                        </div>
-                        <div class="descri">
-                          <p>Informações sobre</p>
-                        </div>
-                      </div>
-                    </div>
-                  </td>
-                  <td >R$50,00</td>
-                  <td>
-                    <div class="qty">
-                      <button>-</button>
-                      <span>2</span>
-                      <button>+</button>
-                    </div>
-                  </td>
-                  <td>R$100,00</td>
-                  <td><button class="remove"><i class='bx bx-x'></i></button></td>
-                </tbody>
-              </table>
-            </div>
-
-
           </div>
-          
           <!--Botão de Fializar compra-->
         </div>
+        
         <button class="Finalizar">
           FINALIZAR
         </button>
+        <div id="total"></div>
       </div>
 
     </div>
