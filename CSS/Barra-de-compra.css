@@ -421,7 +421,45 @@ border-radius: 10px;
 
 
 
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+  #produtos-car{
+    position: absolute;
+    top: 2%;
+    width: 470px;
+    height: 615px; 
+    margin-left: 3%;
+    
+  }
 
+  .confirma-pagamento{
+    background-color: rgb(238, 238, 238);
+    width:200vh;
+    height: 80vh;
+  
+  
+  }
+
+  .produtos-carrin {
+    width: 54%;
+    height: 95%;
+    left: 20%;
+    gap: 50px;
+
+
+  }
+  .pag-entrega{
+    width: 35%;
+    left: 15%;
+    height: 95%;
+  }
+
+.dados{
+  width: 35%;
+  left: 9%;
+  height: 95%;
+}
+
+}
 
 
 
