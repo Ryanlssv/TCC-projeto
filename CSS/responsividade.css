@@ -155,7 +155,9 @@ html{
     position: absolute;
   
   }
-
+  .texto-container {
+    padding-top: 19%;
+  }
   .Produtos-vendidos{
     position: absolute;
 margin-top:20%;
