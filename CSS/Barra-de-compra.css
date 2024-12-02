@@ -445,23 +445,23 @@ border-radius: 10px;
   
   }
 
+
+  
   .produtos-carrin {
-    width: 54%;
+    width: 40%;
     height: 95%;
-    left: 20%;
+    left: 3%;
     gap: 50px;
-
-
   }
   .pag-entrega{
-    width: 35%;
-    left: 15%;
+    width: 25%;
+    left:-1%;
     height: 95%;
   }
 
 .dados{
-  width: 35%;
-  left: 9%;
+  width: 25%;
+  left: -3%;
   height: 95%;
 }
 
