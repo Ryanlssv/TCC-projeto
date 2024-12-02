@@ -423,7 +423,7 @@ border-radius: 10px;
 
 @media screen and (min-width: 1400px) and (max-width: 1600px) {
   #produtos-car{
-    position: absolute;
+    position: relative;
     top: 2%;
     width: 470px;
     height: 615px; 
@@ -431,11 +431,17 @@ border-radius: 10px;
     
   }
 
+  .cards {
+    width:200vh;
+    gap: 0;
+  }
+
   .confirma-pagamento{
     background-color: rgb(238, 238, 238);
     width:200vh;
     height: 80vh;
-  
+    padding: 0%;
+    gap: 0;
   
   }
 
@@ -497,7 +503,7 @@ border-radius: 10px;
   padding: 20px;
   display: inline-block;
   font-family: "Heavitas";
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .boxs3 {
@@ -512,21 +518,32 @@ border-radius: 10px;
 .boxs4 {
   width: 320px;
   min-height: 150px;
-  padding: 20px;
+  padding: 10px;
   margin-left: 5%;
+  font-size: 15px;
+  display: inline-block;
+  font-family: "Heavitas";
+
+}
+.boxs5 {
+  width: 320px;
+  min-height: 150px;
+  padding: 7px;
+  margin-left: -5%;
   font-size: 15px;
   display: inline-block;
   font-family: "Heavitas";
 }
-.boxs5 {
+.boxs6 {
   position: absolute;
   width: 320px;
   min-height: 150px;
-  padding: 20px;
-  margin-left: 5%;
+  padding: 2px;
+  margin-left: -1%;
   font-size: 15px;
   display: inline-block;
   font-family: "Heavitas";
+  margin-top: 3%;
   top: 20%;
 }
 
@@ -546,21 +563,28 @@ p {
 .boxs4 :nth-child(4) {
   width: 400px;
 }
+.boxs5 :nth-child(4) {
+  width: 400px;
+}
 .boxs h2 {
   color: #ddd;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .boxs2 h2 {
   color: #ddd;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .boxs3 h2 {
   color: #ddd;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .boxs4 h2 {
   color: #ddd;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+.boxs5 h2 {
+  color: #ddd;
+  margin-bottom: 10px;
 }
 .boxs ul li {
   margin: 10px 0px;
@@ -575,6 +599,10 @@ p {
   list-style: none;
 }
 .boxs4 ul li {
+  margin: 10px 0px;
+  list-style: none;
+}
+.boxs5 ul li {
   margin: 10px 0px;
   list-style: none;
 }
@@ -594,6 +622,10 @@ p {
   color: #ddd;
   text-decoration: none;
 }
+.boxs5 ul li a {
+  color: #ddd;
+  text-decoration: none;
+}
 .boxs ul li a:hover {
   color: #ddd;
 }
@@ -604,6 +636,9 @@ p {
   color: #ddd;
 }
 .boxs4 ul li a:hover {
+  color: #ddd;
+}
+.boxs5 ul li a:hover {
   color: #ddd;
 }
 .boxs p {
@@ -622,6 +657,10 @@ p {
   color: #ddd;
   text-align: justify;
 }
+.boxs5 p {
+  color: #ddd;
+  text-align: justify;
+}
 
 .Direitos {
   position: absolute;
@@ -630,7 +669,7 @@ p {
   height: 4%;
   left: 0px;
   padding-top: 5px;
-  top: 340%;
+  top: 140%;
   color: #000000;
   text-align: center;
 }
@@ -645,5 +684,57 @@ p {
   color: #4d4c4c;
   left: 27%;
   text-align: center;
+}
+
+.Envios {
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
+  left: 27%;
+  text-align: center;
+}
+
+.Cookies {
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
+  left: 27%;
+  text-align: center;
+}
+
+.Comdições {
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
+  left: 27%;
+  text-align: center;
+}
+
+/*RODAPE AJUSTE INDEX CARD PRODUTO*/
+
+.Rodape-INDEXCARD {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  top: 300%;
+  left: 0px;
+  background-color: #000000;
+  color: white;
+}
+
+.Direitos-INDEXCARD {
+  position: absolute;
+  width: 100%;
+  background-color: #f4d406;
+  height: 4%;
+  left: 0px;
+  padding-top: 5px;
+  top: 340%;
+  color: #000000;
+  text-align: center;
+}
+
+.Direitos-INDEXCARD p {
+  padding-top: 15px;
 }
 
